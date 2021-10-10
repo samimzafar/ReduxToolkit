@@ -13,7 +13,7 @@ const Details = () => {
   }, []);
   return !loader ? (
     <>
-      <Link to="/" className="btn btn-dark mb-3">
+      <Link to="/ReduxToolkit" className="btn btn-dark mb-3">
         Go to Main Page
       </Link>
       <div className="card">

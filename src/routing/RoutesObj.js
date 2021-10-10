@@ -2,11 +2,11 @@ import { Details, Home } from "../pages";
 
 const RoutesObj = {
   Root: {
-    path: "/",
+    path: "/ReduxToolkit",
     component: Home,
   },
   Home: {
-    path: "/home",
+    path: "/ReduxToolkit/home",
     component: Home,
   },
   Details: {
