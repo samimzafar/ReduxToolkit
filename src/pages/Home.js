@@ -22,7 +22,6 @@ const Home = () => {
             <th>Name</th>
             <th>Username</th>
             <th>Email</th>
-            <th>Details</th>
           </tr>
         </thead>
         <tbody>

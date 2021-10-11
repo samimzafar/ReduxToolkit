@@ -1,6 +1,6 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { Routes } from "./routing";
+import { Home } from "./pages";
 import Store from "./store";
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <div className="row">
         <div className="col-12">
           <Provider store={Store}>
-            <Routes />
+            <Home />
           </Provider>
         </div>
       </div>
